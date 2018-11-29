@@ -2,7 +2,7 @@ version: "3"
 
 services:
   jenkins:
-    image: jenkinsci/blueocean
+    image: docker.artifactory.klarna.net/jenkins/jenkins:849
     # command: --config.file=/etc/prometheus/prometheus.yml
     ports:
       - 8080:8080
